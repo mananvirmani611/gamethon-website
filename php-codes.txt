@@ -1,0 +1,74 @@
+date : 
+
+<?php echo date(
+                                              "D",
+                                              strtotime(
+                                                  $cricket_match->match_date_time
+                                              )
+                                          ) .
+                                              ", " .
+                                              date(
+                                                  "d M Y",
+                                                  strtotime(
+                                                      $cricket_match->match_date_time
+                                                  )
+                                              ); ?>
+
+
+
+time:
+
+<?php echo date(
+                                              "H:i A",
+                                              strtotime(
+                                                  $cricket_match->match_date_time
+                                              )
+                                          ); ?>
+
+teams:
+src-image team1: <?php echo $cricket_match->team_image1; ?>
+team1 name: <?php echo $cricket_match->team_name1; ?>
+
+league name: <?php echo $cricket_match->league_name; ?>
+vs image: random
+
+src-image team2: <?php echo $cricket_match->team_image2; ?>
+team2 name: <?php echo $cricket_match->team_name2; ?>
+
+
+match-title:
+<?php echo $cricket_match->title; ?>
+
+
+
+starting the for loop for table of mvps:
+
+<?php if (
+                                                 is_array(
+                                                     $cricket_match->player
+                                                 ) &&
+                                                 count($cricket_match->player)
+                                             ) { ?>
+                                            <?php foreach (
+                                                $cricket_match->player
+                                                as $player
+                                            ) { ?>
+
+
+image-src for player:
+<?php echo $player["image"]; ?>
+name for player:
+<?php echo $player["name"]; ?>
+points for player:
+<?php echo $player["points"]; ?>
+designation for player:
+<?php echo $player["title"]; ?>
+
+
+ending code for loop:
+<?php } ?>
+<?php } else { ?>
+
+
+ending for data not found:
+<?php } ?>

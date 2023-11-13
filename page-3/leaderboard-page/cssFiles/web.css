@@ -1,0 +1,496 @@
+html, body {
+  overflow-x: hidden;
+  background-color: #041928 !important;
+  font-family: 'Dosis', sans-serif !important;
+  font-weight: 400 !important;
+  width: 100%!important;
+  color: white!important;
+}
+#body-except-footer{
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+}
+
+.header-bg {
+  background-color: #3c436b;
+}
+
+/* SOCIAL MEDIA ICONS */
+a.fa {
+  padding: 10px;
+  font-size: 25px;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 25px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+  color: gray;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube-play {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-telegram {
+  background: #34acdc;
+  color: white;
+}
+.fa-instagram {
+  background-image: linear-gradient(to bottom, #515bd4 , #8134af , #dd2a7b, #f58529, #feda77);
+  color: white;
+}
+
+.navbar-right-links {
+  position: absolute;
+  right: 0;
+  padding-right: 2%;
+}
+
+/* NAVIGATION BAR CSS */
+.nav-wrapper {
+  /* for padding from body */
+  padding: 15px 10px;
+}
+
+.navbar {
+  border-radius: 10px;
+}
+
+.navbar-brand {
+  /* set the logo width */
+  width: 20% !important;
+}
+
+#logo-link {
+  margin-left: 0;
+}
+
+#logo {
+  width: 100%;
+  margin-left: 3%;
+}
+
+.custom-toggler.navbar-toggler-icon {
+  /* change the color of hamburger icon */
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler {
+  margin-right: 2%;
+  border: none;
+}
+
+.collapse.navbar-collapse {
+  position: relative;
+}
+
+.nav-link:hover {
+  color: gray !important;
+}
+
+.nav-item>a {
+  font-weight: 500;
+  color: white !important;
+}
+
+
+
+/* CELEBRITY + USP SECTION CSS */
+.celebrity-usp {
+  /* for section padding */
+  padding: 20px 15px;
+}
+
+#celebrity-video {
+  /* for video */
+  border-radius: 20px;
+  display: inline !important;
+}
+
+.usp-buttons-wrapper {
+  /* for margins in the buttons*/
+  padding: 0 9px;
+}
+
+.usp-buttons {
+  /* inside button things */
+  border-radius: 6px;
+  height: 300px;
+  padding: 5%;
+  color: white !important;
+}
+
+.usp-heading {
+  font-size: 32px;
+}
+
+.additional-usp-div {
+}
+
+.know-more-button {
+  margin-top: 0;
+  color: black;
+  margin-bottom:16px;
+  /* inside button padding */
+  padding: 4% 3%;
+  font-weight: 500 !important;
+}
+
+
+
+a.know-more-link{
+  color: black!important;
+  text-decoration: none;
+}
+a.know-more-link:hover{
+  color: white!important;
+}
+
+
+
+/* specific usp gradients */
+#first-usp {
+  background-image: linear-gradient(to right, #551a80, #bb5cff);
+}
+
+#second-usp {
+  background-image: linear-gradient(to right, #808000, #ffff00);
+}
+
+#third-usp {
+  background-image: linear-gradient(to right, #7e581e, #fdd089);
+}
+
+#fourth-usp {
+  background-image: linear-gradient(to right, #7786c0, #e4e7f2);
+  display: none;
+}
+
+/* youtube buttons alongside of knowmore button */
+a.yt-specific-button {
+  font-size: 21px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 20px;
+}
+
+/* OTHER USP SECTION */
+.other-usp-section {
+  margin: 22px 10px;
+}
+
+.other-usp-wrapper {
+  /* for providing margins in the images */
+  padding: 0 10px;
+}
+
+.other-usp-image {
+  border-radius: 10px;
+  border: 0 solid white;
+}
+
+.other-usp-images {
+  border-radius: 10px;
+  border: 2px solid gray;
+}
+
+
+/* footer section css */
+.footer-division{
+  color: white!important;
+  padding: 2%;
+  background-color: #242737;
+  margin: 0;
+}
+.footer-hr{
+  margin-left: auto;
+  margin-right: auto;
+  height: 4px;
+  border-radius: 10px;
+  width:98%;
+  border: none;
+  background:  white;
+}
+.footer-links{
+  margin: 2% 0;
+  padding-top:1%;
+  padding-bottom: 1%;
+  border-left: 1px solid white;
+}
+.footer-division .fa{
+  color: white;
+}
+.footer-links a{
+  text-decoration: none;
+  color: white;
+}
+
+.download-buttons-wrapper{
+  position: relative;
+}
+.download-button{
+  border-color: white;
+  padding: 0 3px !important;
+  color: white;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.social-icons-footer{
+  text-align: right;
+}
+.footer-division hr{
+  margin: 0.5%!important;
+}
+#copyright{
+  text-align: center;
+}
+
+
+
+.redirect-text{
+  color:white;
+   text-decoration:none;
+   margin-bottom:3%;!
+}
+.redirect-text:hover{
+  color:gray;
+}
+
+
+
+
+
+
+
+
+
+
+/* for bigger tablet size */
+@media only screen and (max-width: 1296px) {
+  .testimonial-carousel-cell {
+    aspect-ratio: 1 / 1.45;
+  }
+}
+
+/* MEDIA QUERY ELEMENTS FOR tablet VIEW*/
+@media only screen and (max-width: 992px) {
+  .nav-item {
+    /* border to the list items */
+    border: 1px solid white;
+  }
+
+  .nav-item>a {
+    /* margin to the anchor tags in the list */
+    margin-left: 10px;
+  }
+
+  .navbar {
+    /* to remove padding from the dropdown */
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+
+  .navbar-brand {
+    /* change the width of icon on smaller screen size */
+    width: 40% !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .navbar-nav {
+    /* to make padding in the logo and hamburger*/
+    padding-top: 2px;
+    background-color: #041928;
+    /* for making dropdown overlap */
+    position: absolute;
+    right: 0;
+    width: 250px;
+  }
+
+  .nav-item-outer {
+    /* set position of the list item in dropdown */
+    width: 100%;
+  }
+
+  .navbar-right-links {
+    /* remove social buttons on mobile view */
+    display: none;
+  }
+
+  /* celebrity and usp section */
+  #fourth-usp {
+    display: block;
+  }
+
+  .usp-buttons-wrapper {
+    padding: 9px 9px;
+  }
+
+  .know-more-button {
+    margin-bottom: 3%;
+  }
+
+
+  /* other-usp section */
+  .other-usp-wrapper {
+    padding: 10px 12px;
+  }
+
+  /* games-schemes section */
+  .games-schemes-division {
+    margin: 3% 15px 7% 10px;
+  }
+
+
+  /* testimonials section */
+  .testimonial-carousel-cell {
+    width: 32%;
+    padding: 3%;
+    height: 300px;
+  }
+
+  .testimonial-division {
+    margin: 5% 15px 3% 10px;
+  }
+
+  /* seo section */
+  .seo-division {
+    margin: 8% 15px 3% 10px;
+  }
+
+
+  /* footer section */
+  .footer-division{
+    padding: 4%;
+  }
+  footer .fa-download{
+    font-size: 12px!important;
+    margin:0!important;
+  }
+
+  /* sticky buttons */
+  #sticky-download-button{
+    display: block;
+  }
+  #sticky-chat-button{
+    display: block;
+  }
+}
+
+
+
+/* media query for mobile view */
+@media only screen and (max-width: 768px) {
+  .games-bigscreen-div {
+    display: none;
+  }
+
+  .games-smallscreen-div {
+    display: block;
+  }
+
+  .game-wrapper {
+    margin-top: 5%;
+    margin-bottom: 3%;
+  }
+
+  .control-buttons-schemes{
+    display: none;
+  }
+  .scheme-images{
+    width: 100%!important;
+  }
+
+  .testimonial-carousel-cell {
+    padding: 3%;
+    width: 54%;
+    aspect-ratio: 1 / 1;
+  }
+
+  .testimonial-carousel {
+    padding: 2% 8% !important;
+  }
+
+  .testimonial-division {
+    margin: 10% 15px 3% 10px;
+  }
+
+}
+
+
+/* only for testimonials section (smallest mobile size)*/
+@media only screen and (max-width: 656px) {
+  .testimonial-carousel-cell {
+    padding: 4%;
+    width: 75%;
+    aspect-ratio: 1 / 1;
+  }
+  #body-except-footer{
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  #mvp-player-data{
+    margin-left:0;
+  }
+  .accordion-body{
+    padding-left:2%;
+    padding-right:2%;
+  }
+}
+
+.hide {
+  display: none!important;
+}
+.dropdown-menu-ongoing{
+  padding:3px;
+  margin-top:1%;
+  font-size: 22px;
+}
+
+.table{
+  color:white!important;
+border: 1px solid white;}
+
+.nav-link.active{
+  background-color: #3c436b!important;
+  color: white!important;
+}
+
+.nav-link{
+  color: white;
+}
+th, td{
+  text-align: center!important;
+}
+select{
+  background: #1d303e;
+  color: white;
+}
+
+input{
+  background: #1d303e;
+}
+label input.form-control.form-select-sm{
+  background-color: #1d303e!important;
+  color:white;
+}

@@ -1,0 +1,358 @@
+<table id="example" class="table table-striped" style="width:100%">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Position</th>
+            <th>Office</th>
+            <th>Age</th>
+            <th>Start date</th>
+            <th>Salary</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Tiger Nixon</td>
+            <td>System Architect</td>
+            <td>Edinburgh</td>
+            <td>61</td>
+            <td>2011-04-25</td>
+            <td>$320,800</td>
+          </tr>
+          <tr>
+            <td>Garrett Winters</td>
+            <td>Accountant</td>
+            <td>Tokyo</td>
+            <td>63</td>
+            <td>2011-07-25</td>
+            <td>$170,750</td>
+          </tr>
+          <tr>
+            <td>Ashton Cox</td>
+            <td>Junior Technical Author</td>
+            <td>San Francisco</td>
+            <td>66</td>
+            <td>2009-01-12</td>
+            <td>$86,000</td>
+          </tr>
+          <tr>
+            <td>Cedric Kelly</td>
+            <td>Senior Javascript Developer</td>
+            <td>Edinburgh</td>
+            <td>22</td>
+            <td>2012-03-29</td>
+            <td>$433,060</td>
+          </tr>
+          <tr>
+            <td>Airi Satou</td>
+            <td>Accountant</td>
+            <td>Tokyo</td>
+            <td>33</td>
+            <td>2008-11-28</td>
+            <td>$162,700</td>
+          </tr>
+          <tr>
+            <td>Brielle Williamson</td>
+            <td>Integration Specialist</td>
+            <td>New York</td>
+            <td>61</td>
+            <td>2012-12-02</td>
+            <td>$372,000</td>
+          </tr>
+          <tr>
+            <td>Herrod Chandler</td>
+            <td>Sales Assistant</td>
+            <td>San Francisco</td>
+            <td>59</td>
+            <td>2012-08-06</td>
+            <td>$137,500</td>
+          </tr>
+          <tr>
+            <td>Rhona Davidson</td>
+            <td>Integration Specialist</td>
+            <td>Tokyo</td>
+            <td>55</td>
+            <td>2010-10-14</td>
+            <td>$327,900</td>
+          </tr>
+          <tr>
+            <td>Colleen Hurst</td>
+            <td>Javascript Developer</td>
+            <td>San Francisco</td>
+            <td>39</td>
+            <td>2009-09-15</td>
+            <td>$205,500</td>
+          </tr>
+          <tr>
+            <td>Herrod Chandler</td>
+            <td>Sales Assistant</td>
+            <td>San Francisco</td>
+            <td>59</td>
+            <td>2012-08-06</td>
+            <td>$137,500</td>
+          </tr>
+          <tr>
+            <td>Rhona Davidson</td>
+            <td>Integration Specialist</td>
+            <td>Tokyo</td>
+            <td>55</td>
+            <td>2010-10-14</td>
+            <td>$327,900</td>
+          </tr>
+          <tr>
+            <td>Colleen Hurst</td>
+            <td>Javascript Developer</td>
+            <td>San Francisco</td>
+            <td>39</td>
+            <td>2009-09-15</td>
+            <td>$205,500</td>
+          </tr>
+          <tr>
+            <td>Herrod Chandler</td>
+            <td>Sales Assistant</td>
+            <td>San Francisco</td>
+            <td>59</td>
+            <td>2012-08-06</td>
+            <td>$137,500</td>
+          </tr>
+          <tr>
+            <td>Rhona Davidson</td>
+            <td>Integration Specialist</td>
+            <td>Tokyo</td>
+            <td>55</td>
+            <td>2010-10-14</td>
+            <td>$327,900</td>
+          </tr>
+          <tr>
+            <td>Colleen Hurst</td>
+            <td>Javascript Developer</td>
+            <td>San Francisco</td>
+            <td>39</td>
+            <td>2009-09-15</td>
+            <td>$205,500</td>
+          </tr>
+          <tr>
+            <td>Herrod Chandler</td>
+            <td>Sales Assistant</td>
+            <td>San Francisco</td>
+            <td>59</td>
+            <td>2012-08-06</td>
+            <td>$137,500</td>
+          </tr>
+          <tr>
+            <td>Rhona Davidson</td>
+            <td>Integration Specialist</td>
+            <td>Tokyo</td>
+            <td>55</td>
+            <td>2010-10-14</td>
+            <td>$327,900</td>
+          </tr>
+          <tr>
+            <td>Colleen Hurst</td>
+            <td>Javascript Developer</td>
+            <td>San Francisco</td>
+            <td>39</td>
+            <td>2009-09-15</td>
+            <td>$205,500</td>
+          </tr>
+          <tr>
+            <td>Herrod Chandler</td>
+            <td>Sales Assistant</td>
+            <td>San Francisco</td>
+            <td>59</td>
+            <td>2012-08-06</td>
+            <td>$137,500</td>
+          </tr>
+          <tr>
+            <td>Rhona Davidson</td>
+            <td>Integration Specialist</td>
+            <td>Tokyo</td>
+            <td>55</td>
+            <td>2010-10-14</td>
+            <td>$327,900</td>
+          </tr>
+          <tr>
+            <td>Colleen Hurst</td>
+            <td>Javascript Developer</td>
+            <td>San Francisco</td>
+            <td>39</td>
+            <td>2009-09-15</td>
+            <td>$205,500</td>
+          </tr>
+        </tbody>
+      </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <?php
+                $i = 0;
+                foreach ($ongoing_matches as $value) {
+                    $i = $i + 1;
+                    $active = "";
+                    $ids = "nav-" . $value->id . "-tab";
+                    $href = "#nav-" . $value->id;
+                    $aria = "nav-" . $value->id;
+                    if ($i == 1) {
+                        $active = "active";
+                    }
+                ?>
+                <a class="nav-item nav-link <?php echo $active; ?>" id="<?php echo $ids; ?>" data-toggle="tab" href="<?php echo $href; ?>" role="tab" aria-controls="<?php echo $aria; ?>" aria-selected="true" title="<?php echo $value->custom_name; ?>">
+                  <?php echo $value->custom_name; ?></a>
+                <?php
+                }
+                ?>
+                </div>
+              </nav>
+            <div class="tab-content" id="nav-tabContent" style="border-bottom:none!important;">
+              <?php
+              $i = 0;
+              foreach ($ongoing_matches as $value) {
+
+                  $i = $i + 1;
+                  $active = "";
+                  $ids = "nav-" . $value->id;
+                  $aria = "nav-" . $value->id . "-tab";
+                  if ($i == 1) {
+                      $active = "show active";
+                  }
+                  ?>
+              <div class="tab-pane fade  <?php echo $active; ?>" id="<?php echo $ids; ?>" role="tabpanel" aria-labelledby="<?php echo $aria; ?>">
+
+                  <center> <b><span>Scheme Valid : <?php echo date(
+                      "d M Y",
+                      strtotime($value->start_date)
+                  ) .
+                      " - " .
+                      date(
+                          "d M Y",
+                          strtotime($value->end_date)
+                      ); ?></span></b></center>
+
+                  <?php $users = $this->Affiliation_model->get_leaderboard_winner_data(
+                      $value->id,
+                      $value->league_id,
+                      $value->number_of_winners
+                  ); ?>
+                  <table id="example" class="exampletable display" style="width:100%">
+                        <thead>
+                            <tr>
+                                <th>Rank</th>
+                                <th>Country</th>
+                                <th>Image</th>
+                                <th>Name</th>
+                                <th>Points</th>
+
+                            </tr>
+                        </thead>
+                         <tbody>
+                          <?php if (!empty($users)) {
+                              $j = 0;
+                              foreach ($users as $user) {
+                                  $j = $j + 1;
+                                  if (
+                                      isset($user->image) &&
+                                      !empty($user->image)
+                                  ) {
+                                      $image_path =
+                                          "https://naya11.com/admin/uploads/user/" .
+                                          $user->image;
+                                      $user_image =
+                                          '<img src="' .
+                                          $image_path .
+                                          '" class="img-fluid" alt="User Image" width="50px" title="' .
+                                          $user->name .
+                                          '">';
+                                  } else {
+                                      $image_path = base_url(
+                                          "uploads/default.jpg"
+                                      );
+                                      $user_image =
+                                          '<img src="' .
+                                          $image_path .
+                                          '" class="img-fluid" alt="User Image" width="50px" title="' .
+                                          $user->name .
+                                          '">';
+                                  }
+                                  if (
+                                      isset($user->flag) &&
+                                      !empty($user->flag)
+                                  ) {
+                                      $flag_image_path =
+                                          "https://naya11.com/admin/assets/flags/64x64/" .
+                                          $user->flag;
+                                      $user_flag_image =
+                                          '<img src="' .
+                                          $flag_image_path .
+                                          '" class="img-fluid" alt="' .
+                                          $user->country_name .
+                                          '" title="' .
+                                          $user->country_name .
+                                          '" width="50px">';
+                                  } else {
+                                      $flag_image_path =
+                                          "https://naya11.com/admin/assets/flags/64x64/in.png";
+                                      $user_flag_image =
+                                          '<img src="' .
+                                          $flag_image_path .
+                                          '" class="img-fluid" alt="India" width="50px">';
+                                  }
+                                  if (
+                                      isset($user->iso3) &&
+                                      !empty($user->iso3)
+                                  ) {
+                                      $country_iso = $user->iso3;
+                                  } else {
+                                      $country_iso = $user->iso;
+                                  }
+                                  echo "<tr>";
+                                  echo "<td>" . $j . "</td>";
+                                  echo "<td>" .
+                                      $user_flag_image .
+                                      "<br>" .
+                                      $country_iso .
+                                      "</td>";
+                                  echo "<td>" . $user_image . "</td>";
+                                  echo "<td>" . $user->name . "</td>";
+                                  echo "<td>" .
+                                      number_format($user->points, 2) .
+                                      "</td>";
+                                  echo "</tr>";
+                              }
+                          } ?>
+                         </tbody>
+                          <tfoot>
+                            <tr>
+                                <th>Rank</th>
+                                <th>Country</th>
+                                <th>Image</th>
+                                <th>Name</th>
+                                <th>Points</th>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+                <?php
+              }
+              ?>
+            </div>
+
+          </div>
+          </div>
+          <?php  ?>
